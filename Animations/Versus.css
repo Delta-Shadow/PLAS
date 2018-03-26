@@ -16,26 +16,26 @@ body {
 
 #versus {
     color: black;
-    font-family: sans-serif;
-    font-size: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 100px;
 }
 
 .emblem {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 360px;
 }
 
 .north {
     top: -150%;
-    left: 30%;
+    left: 18%;
     animation: moveDown 0.7s;
 }
 
 .south {
     top: 150%;
-    right: 30%;
+    right: 18%;
     animation: moveUp 0.7s;
 }
 
@@ -83,103 +83,103 @@ body {
 /* North */
 #Newcastle-United {
     background: url("../Imgs/North/NewcastleUnited.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 #Liverpool {
     background: url("../Imgs/North/Liverpool.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 #Everton {
     background: url("../Imgs/North/Everton.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 #Manchester-United {
     background: url("../Imgs/North/ManchesterUnited.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 #Manchester-City {
     background: url("../Imgs/North/ManchesterCity.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 #Huddersfield-Town {
     background: url("../Imgs/North/Huddersfield.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 #Burnley {
     background: url("../Imgs/North/Burnley.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 #Stoke-City {
     background: url("../Imgs/North/StokeCity.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 #Leichester-City {
     background: url("../Imgs/North/Leichester.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 #West-Bromwich-Albion {
     background: url("../Imgs/North/Albion.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 /* South */
 #Chelsea {
-    background-size: 150 150;
     background: url("../Imgs/South/Chelsea.png") no-repeat center center;
+    background-size: contain;
 }
 
 #Tottenham-Hotspurs {
-    background-size: 150 150;
     background: url("../Imgs/South/Tottenham.png") no-repeat center center;
+    background-size: contain;
 }
 
 #Arsenal {
-    background-size: 150 150;
     background: url("../Imgs/South/Arsenal.png") no-repeat center center;
+    background-size: contain;
 }
 
 #West-Ham-United {
-    background-size: 150 150;
     background: url("../Imgs/South/WestHamUnited.png") no-repeat center center;
+    background-size: contain;
 }
 
 #Crystal-Palace {
-    background-size: 150 150;
     background: url("../Imgs/South/CrystalPalace.png") no-repeat center center;
+    background-size: contain;
 }
 
 #Bournemouth {
-    background-size: 150 150;
     background: url("../Imgs/South/Bournemouth.png") no-repeat center center;
+    background-size: contain;
 }
 
 #Southampton {
-    background-size: 150 150;
     background: url("../Imgs/South/Southampton.png") no-repeat center center;
+    background-size: contain;
 }
 
 #Brighton-and-Hove-Albion {
-    background-size: 150 150;
     background: url("../Imgs/South/Albion.png") no-repeat center center;
+    background-size: contain;
 }
 
 #Watford {
     background: url("../Imgs/South/Watford.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 #Swansea-City {
     background: url("../Imgs/South/Swansea.png") no-repeat center center;
-    background-size: 150 150;
+    background-size: contain;
 }
 
 @keyframes moveDown {
