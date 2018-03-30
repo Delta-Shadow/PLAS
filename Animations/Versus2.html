@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Versus2</title>
+    <style>
+
+        * {
+            margin: 0px; padding: 0px;
+        }
+
+        html, body {
+            width: 100%; height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-family: sans-serif;
+            font-size: 100px;
+            animation: shrinkVS 15s forwards;
+        }
+
+        .north, .south {
+            position: absolute;
+            top: 30%;
+            width: 250px;
+            height: 250px;
+        } 
+
+        .north {
+            left: 20%;
+            animation: shrinkNorth 15s forwards;
+        }
+
+        .south {
+            right: 27%;
+            animation: shrinkSouth 15s forwards;
+        }
+
+        .foo {
+            background-color: red;
+        }
+
+        .bar {
+            background-color: black;
+        }
+
+        /* North */
+        .Newcastle-United {
+            background: url("../Imgs/North/NewcastleUnited.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Liverpool {
+            background: url("../Imgs/North/Liverpool.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Everton {
+            background: url("../Imgs/North/Everton.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Manchester-United {
+            background: url("../Imgs/North/ManchesterUnited.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Manchester-City {
+            background: url("../Imgs/North/ManchesterCity.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Huddersfield-Town {
+            background: url("../Imgs/North/Huddersfield.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Burnley {
+            background: url("../Imgs/North/Burnley.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Stoke-City {
+            background: url("../Imgs/North/StokeCity.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Leichester-City {
+            background: url("../Imgs/North/Leichester.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .West-Bromwich-Albion {
+            background: url("../Imgs/North/Albion.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        /* South */
+        .Chelsea {
+            background: url("../Imgs/South/Chelsea.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Tottenham-Hotspurs {
+            background: url("../Imgs/South/Tottenham.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Arsenal {
+            background: url("../Imgs/South/Arsenal.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .West-Ham-United {
+            background: url("../Imgs/South/WestHamUnited.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Crystal-Palace {
+            background: url("../Imgs/South/CrystalPalace.PNG") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Bournemouth {
+            background: url("../Imgs/South/Bournemouth.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Southampton {
+            background: url("../Imgs/South/Southampton.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Brighton-And-Hove-Albion {
+            background: url("../Imgs/South/Albion.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Watford {
+            background: url("../Imgs/South/Watford.png") no-repeat center center;
+            background-size: contain;
+        }
+
+        .Swansea-City {
+            background: url("../Imgs/South/Swansea.png") no-repeat center center;
+            background-size: contain;
+        }
+
+
+        @keyframes shrinkNorth {
+            from { 
+                width: 250px;
+                height: 250px;
+                top: 30%;
+                left: 20%;
+            }
+            to { 
+                width: 100px;
+                height: 100px;
+                top: 42%;
+                left: 30%;
+            }
+        }
+
+        @keyframes shrinkSouth {
+            from { 
+                width: 250px;
+                height: 250px;
+                top: 30%;
+                right: 27%;
+            }
+            to { 
+                width: 100px;
+                height: 100px;
+                top: 42%;
+                right: 37%;
+            }
+        }
+
+        @keyframes shrinkVS {
+            from { 
+                font-size: 100px;
+            }
+            to { 
+                font-size: 50px;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="north"></div>
+    <h1 id="vs">VS</h1>
+    <div class="south"></div>
+
+    <script src="p5.min.js"></script>
+    <script src="Versus2.js"></script>
+
+</body>
+</html>
