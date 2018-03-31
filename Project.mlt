@@ -59,15 +59,102 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:00:14.800">
+    <property name="length">00:00:14.840</property>
+    <property name="eof">pause</property>
+    <property name="resource">Animations/Logo - Final.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">a85d2dd1a9a9af02ceb815fed12fa353</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:00:14.800">
+    <property name="length">00:00:14.840</property>
+    <property name="eof">pause</property>
+    <property name="resource">Animations/Logo with Zoom 2.avi</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">3d0607d5ceba5a29aee0bdc6154f14ce</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:02:24.160">
+    <property name="length">00:02:24.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">Audio/Trailer.wav</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">a7c325195186b86ba0045b72276c8ede</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:03:50.320">
+    <property name="length">00:03:50.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">Video/Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">877349a3d5e413ccebb7764ff836221f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="shotcut:detail">Video/Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="shotcut:comment"></property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="00:02:53.640">
+    <property name="length">00:02:53.680</property>
+    <property name="eof">pause</property>
+    <property name="resource">Video/Premier League 17-18 - Trailer.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">44479ff3ed51453a793a54322e2bf09f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Premier League 17-18 - Trailer.mp4</property>
+    <property name="shotcut:detail">Video/Premier League 17-18 - Trailer.mp4</property>
+    <property name="shotcut:comment"></property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
   <playlist id="main bin">
     <property name="xml_retain">1</property>
     <entry producer="producer0" in="00:00:00.000" out="00:00:20.240"/>
     <entry producer="producer1" in="00:00:00.000" out="00:03:56.440"/>
     <entry producer="producer2" in="00:00:00.000" out="00:01:32.880"/>
     <entry producer="producer3" in="00:00:00.000" out="00:03:56.480"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:14.800"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:14.800"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:02:24.160"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:03:50.320"/>
+    <entry producer="producer8" in="00:00:03.160" out="00:00:35.200"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:04:17.160">
-    <property name="length">00:04:17.200</property>
+  <producer id="black" in="00:00:00.000" out="00:04:28.400">
+    <property name="length">00:04:28.440</property>
     <property name="eof">pause</property>
     <property name="resource">black</property>
     <property name="aspect_ratio">1</property>
@@ -75,9 +162,9 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:04:17.160"/>
+    <entry producer="black" in="00:00:00.000" out="00:04:28.400"/>
   </playlist>
-  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:00:20.240">
+  <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="00:00:20.240">
     <property name="length">00:00:20.280</property>
     <property name="eof">pause</property>
     <property name="resource">Tests/Intro.mp4</property>
@@ -113,9 +200,10 @@
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
-    <entry producer="producer4" in="00:00:00.000" out="00:00:20.240"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:20.240"/>
+    <blank length="00:04:08.160"/>
   </playlist>
-  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:03:56.440">
+  <producer id="producer11" title="Anonymous Submission" in="00:00:00.000" out="00:03:56.440">
     <property name="length">00:03:56.480</property>
     <property name="eof">pause</property>
     <property name="resource">Tests/North 11.mp4</property>
@@ -146,7 +234,7 @@
       <property name="gain">0.501187</property>
     </filter>
   </producer>
-  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:01:32.880">
+  <producer id="producer12" title="Anonymous Submission" in="00:00:00.000" out="00:01:32.880">
     <property name="length">00:01:32.920</property>
     <property name="eof">pause</property>
     <property name="resource">Tests/South 11.mp4</property>
@@ -168,11 +256,11 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V2</property>
     <blank length="00:00:22.560"/>
-    <entry producer="producer5" in="00:00:00.000" out="00:01:47.040"/>
-    <blank length="00:00:02.360"/>
-    <entry producer="producer6" in="00:00:00.000" out="00:01:32.880"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:01:47.040"/>
+    <blank length="00:00:01.360"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:01:32.880"/>
   </playlist>
-  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:03:56.480">
+  <producer id="producer14" title="Anonymous Submission" in="00:00:00.000" out="00:03:56.480">
     <property name="length">00:03:56.520</property>
     <property name="eof">pause</property>
     <property name="resource">Audio/The Wolf and The Moon.wav</property>
@@ -207,9 +295,203 @@
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">A1</property>
     <blank length="00:00:20.680"/>
-    <entry producer="producer7" in="00:00:00.000" out="00:03:56.480"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:03:52.760"/>
   </playlist>
-  <tractor id="tractor0" title="Shotcut version 18.03.06" global_feed="1" in="00:00:00.000" out="00:04:17.160">
+  <producer id="producer16" title="Anonymous Submission" in="00:00:00.000" out="00:02:24.160">
+    <property name="length">00:02:24.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">Audio/Trailer.wav</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">a7c325195186b86ba0045b72276c8ede</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Trailer.wav</property>
+    <property name="shotcut:detail">Audio/Trailer.wav</property>
+    <property name="shotcut:comment"></property>
+    <filter id="filter9" in="00:02:12.680" out="00:02:16.360">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="gain">1</property>
+      <property name="end">0</property>
+    </filter>
+    <filter id="filter10" in="00:02:01.600" out="00:02:05.120">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="gain">0</property>
+      <property name="end">1</property>
+    </filter>
+    <filter id="filter11">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="gain">0.501187</property>
+    </filter>
+  </producer>
+  <playlist id="playlist3">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A2</property>
+    <blank length="00:04:12.880"/>
+    <entry producer="producer16" in="00:02:01.600" out="00:02:16.360"/>
+  </playlist>
+  <producer id="producer17" title="Anonymous Submission" in="00:00:00.000" out="00:03:50.320">
+    <property name="length">00:03:50.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">Video/Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">877349a3d5e413ccebb7764ff836221f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="shotcut:detail">Video/Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="shotcut:comment"></property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer15" title="Anonymous Submission" in="00:00:00.000" out="00:03:50.320">
+    <property name="length">00:03:50.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">Video/Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">877349a3d5e413ccebb7764ff836221f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="shotcut:detail">Video/Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="shotcut:comment"></property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer19" title="Anonymous Submission" in="00:00:00.000" out="00:02:53.640">
+    <property name="length">00:02:53.680</property>
+    <property name="eof">pause</property>
+    <property name="resource">Video/Premier League 17-18 - Trailer.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">44479ff3ed51453a793a54322e2bf09f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Premier League 17-18 - Trailer.mp4</property>
+    <property name="shotcut:detail">Video/Premier League 17-18 - Trailer.mp4</property>
+    <property name="shotcut:comment"></property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer18" title="Anonymous Submission" in="00:00:00.000" out="00:03:50.320">
+    <property name="length">00:03:50.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">Video/Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">877349a3d5e413ccebb7764ff836221f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="shotcut:detail">Video/Why I Love Football - The Beautiful Game.mp4</property>
+    <property name="shotcut:comment"></property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer20" title="Anonymous Submission" in="00:00:00.000" out="00:02:53.640">
+    <property name="length">00:02:53.680</property>
+    <property name="eof">pause</property>
+    <property name="resource">Video/Premier League 17-18 - Trailer.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">44479ff3ed51453a793a54322e2bf09f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Premier League 17-18 - Trailer.mp4</property>
+    <property name="shotcut:detail">Video/Premier League 17-18 - Trailer.mp4</property>
+    <property name="shotcut:comment"></property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer21" title="Anonymous Submission" in="00:00:00.000" out="00:00:14.800">
+    <property name="length">00:00:14.840</property>
+    <property name="eof">pause</property>
+    <property name="resource">Animations/Logo - Final.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">a85d2dd1a9a9af02ceb815fed12fa353</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Logo - Final.mp4</property>
+    <property name="shotcut:detail">Animations/Logo - Final.mp4</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <playlist id="playlist4">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V3</property>
+    <blank length="00:03:43.920"/>
+    <entry producer="producer17" in="00:00:15.000" out="00:00:18.320"/>
+    <entry producer="producer15" in="00:00:04.240" out="00:00:06.280"/>
+    <entry producer="producer19" in="00:00:30.360" out="00:00:31.840"/>
+    <entry producer="producer18" in="00:03:46.520" out="00:03:47.480"/>
+    <blank length="00:00:15.040"/>
+    <entry producer="producer20" in="00:00:10.760" out="00:00:16.680"/>
+    <entry producer="producer21" in="00:00:00.000" out="00:00:14.800"/>
+  </playlist>
+  <producer id="producer22" title="Anonymous Submission" in="00:00:00.000" out="00:00:14.800">
+    <property name="length">00:00:14.840</property>
+    <property name="eof">pause</property>
+    <property name="resource">Animations/Logo with Zoom 2.avi</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">3d0607d5ceba5a29aee0bdc6154f14ce</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Logo with Zoom 2.avi</property>
+    <property name="shotcut:detail">Animations/Logo with Zoom 2.avi</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <playlist id="playlist5">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V4</property>
+    <blank length="00:04:12.880"/>
+    <entry producer="producer22" in="00:00:00.000" out="00:00:14.800"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 18.03.06" global_feed="1" in="00:00:00.000" out="00:04:28.400">
     <property name="shotcut">1</property>
     <property name="shotcut:scaleFactor">1.01</property>
     <property name="shotcut:trackHeight">30</property>
@@ -217,6 +499,9 @@
     <track producer="playlist0"/>
     <track producer="playlist1" hide="audio"/>
     <track producer="playlist2" hide="video"/>
+    <track producer="playlist3" hide="video"/>
+    <track producer="playlist4" hide="audio"/>
+    <track producer="playlist5" hide="video"/>
     <transition id="transition0">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -251,6 +536,41 @@
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">5</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">1</property>
+      <property name="b_track">5</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition8">
+      <property name="a_track">0</property>
+      <property name="b_track">6</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition9">
+      <property name="a_track">1</property>
+      <property name="b_track">6</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
     </transition>
   </tractor>
 </mlt>

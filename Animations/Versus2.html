@@ -6,6 +6,11 @@
     <title>Versus2</title>
     <style>
 
+        @font-face {
+            font-family: Avengers;
+            src: url("../Fonts/AVENGEANCE HEROIC AVENGER.ttf");
+        }
+
         * {
             margin: 0px; padding: 0px;
         }
@@ -15,15 +20,20 @@
         }
 
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            background: black;
         }
 
         h1 {
-            font-family: sans-serif;
+            position: absolute;
+            top: 40%; 
+            width: 100%;
+            text-align: center;
+            font-family: Avengers;
             font-size: 100px;
-            animation: shrinkVS 15s forwards;
+            animation: moveVS 20s forwards;
+            background: linear-gradient(#c23616, #e84118);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
         }
 
         .north, .south {
@@ -34,21 +44,11 @@
         } 
 
         .north {
-            left: 20%;
-            animation: shrinkNorth 15s forwards;
+            animation: moveNorth 20s forwards;
         }
 
         .south {
-            right: 27%;
-            animation: shrinkSouth 15s forwards;
-        }
-
-        .foo {
-            background-color: red;
-        }
-
-        .bar {
-            background-color: black;
+            animation: moveSouth 20s forwards;
         }
 
         /* North */
@@ -151,6 +151,7 @@
         .Swansea-City {
             background: url("../Imgs/South/Swansea.png") no-repeat center center;
             background-size: contain;
+            border-radius: 50px;
         }
 
 
@@ -162,8 +163,8 @@
                 left: 20%;
             }
             to { 
-                width: 100px;
-                height: 100px;
+                width: 150px;
+                height: 150px;
                 top: 42%;
                 left: 30%;
             }
@@ -177,10 +178,10 @@
                 right: 27%;
             }
             to { 
-                width: 100px;
-                height: 100px;
+                width: 150px;
+                height: 150px;
                 top: 42%;
-                right: 37%;
+                right: 35%;
             }
         }
 
@@ -189,8 +190,23 @@
                 font-size: 100px;
             }
             to { 
-                font-size: 50px;
+                font-size: 80px;
             }
+        }
+
+        @keyframes moveNorth {
+            from { left: 23% }
+            to { left: 13% }
+        }
+
+        @keyframes moveSouth {
+            from { right: 20% }
+            to { right: 30% }
+        }
+
+        @keyframes moveVS {
+            from { left: 0% }
+            to { left: -10% }
         }
 
     </style>
